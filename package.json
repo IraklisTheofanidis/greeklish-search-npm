@@ -1,0 +1,19 @@
+{
+  "name": "greeklish-search",
+  "version": "1.0.0",
+  "description": "A utility for performing text searches with Greeklish conversion and sanitization.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "search",
+    "text-search",
+    "string-matching",
+    "greeklish",
+    "conversion",
+    "sanitization"
+  ],
+  "author": "",
+  "license": "ISC"
+}
