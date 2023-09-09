@@ -2,9 +2,10 @@
   "name": "greeklish-search",
   "version": "1.0.0",
   "description": "A utility for performing text searches with Greeklish conversion and sanitization.",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc --watch"
   },
   "keywords": [
     "search",
@@ -15,5 +16,8 @@
     "sanitization"
   ],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
 }
