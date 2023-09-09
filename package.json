@@ -1,6 +1,6 @@
 {
   "name": "greeklish-search",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A utility for performing text searches with Greeklish conversion and sanitization.",
   "main": "dist/index.js",
   "scripts": {
