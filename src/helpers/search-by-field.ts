@@ -8,7 +8,7 @@ import { conversionToGreekLish } from './conversion-to-greeklish';
  * @returns {boolean} - True if the term is found in the field, otherwise false.
  */
 
-export const searchByField = (term: string, field: string): boolean => {
+export function searchByField(term: string, field: string): boolean {
     const sanitizedTerm = conversionToGreekLish(term);
     const sanitizedField = conversionToGreekLish(field);
     return sanitizedField.includes(sanitizedTerm);
