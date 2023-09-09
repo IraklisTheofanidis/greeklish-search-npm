@@ -9,6 +9,6 @@ import { GreekLishMap } from '../constants/greeklish-map';
 
 export const conversionToGreekLish = (word: string): string => {
     const array = word.split('');
-    const sanitizedArray = array.map(o => GreekLishMap[o.toLowerCase()] ?? '');
+    const sanitizedArray = array.map(letter => GreekLishMap[letter.toLowerCase()] ?? '');
     return sanitizedArray.join('');
 };
